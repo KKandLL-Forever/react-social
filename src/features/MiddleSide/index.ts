@@ -1,3 +1,2 @@
-import MiddleSide from './MiddleSide'
-
-export default MiddleSide
+export * from './MiddleSide'
+export { default } from './MiddleSide'

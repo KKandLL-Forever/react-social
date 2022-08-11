@@ -1,3 +1,2 @@
-import RightSide from './RightSide'
-
-export default RightSide
+export * from './RightSide'
+export { default } from './RightSide'
