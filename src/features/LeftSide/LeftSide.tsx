@@ -2,8 +2,9 @@
 import './LeftSide.scss'
 import LogoSearch from './LogoSearch'
 import ProfileCard from './ProfileCard'
+import FollowersCard from './FollowersCard'
 // import './ProfileCard.scss'
-import './test.css'
+// import './test.css'
 
 const LeftSide = () => {
   return (
@@ -11,6 +12,7 @@ const LeftSide = () => {
       <div className="leftSide">
         <LogoSearch/>
         <ProfileCard/>
+        <FollowersCard/>
       </div>
 
     </div>
