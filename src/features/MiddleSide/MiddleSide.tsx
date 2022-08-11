@@ -1,10 +1,10 @@
-// import React from 'react'
 import './MiddleSide.scss'
+import Share from './Share'
 
 const MiddleSide = () => {
   return (
-    <div>
-      <div className="middleSide">middle</div>
+    <div className="middle-side">
+      <Share/>
     </div>
   )
 }
