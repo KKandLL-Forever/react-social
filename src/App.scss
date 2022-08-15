@@ -51,3 +51,9 @@
 ::-webkit-scrollbar{
   display: none;
 }
+// clear x button outline
+.mantine-Modal-close{
+  &:focus-visible {
+    outline: none
+  }
+}
